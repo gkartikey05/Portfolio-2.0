@@ -1,7 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import { ArrowDown } from "lucide-react";
-import { Link } from "react-router-dom";
+import { LuArrowDown } from "react-icons/lu";
 
 import MainLayout from "../Layouts/MainLayout";
 
@@ -95,12 +94,12 @@ function Hero() {
               whileTap={{ scale: 0.9 }}
               className="rounded-full"
             >
-              <Link
-                to="#projects"
+              <a
+                href="#projects"
                 className="px-6 py-3 rounded-full text-white font-medium bg-primary cursor-pointer inline-block"
               >
                 View Project
-              </Link>
+              </a>
             </motion.div>
 
             {/* download resume */}
@@ -112,16 +111,14 @@ function Hero() {
               whileTap={{ scale: 0.9 }}
               className="rounded-full"
             >
-              <Link
-                to={
-                  "https://drive.google.com/file/d/1ieXVy42HLM8gJtyZH6x728PktDQodkez/view?usp=sharing"
-                }
+              <a
+                href="/resume.pdf"
                 target="_blank"
                 download
                 className="px-6 py-3 rounded-full text-gradient font-medium border glass-panel border-white/10 cursor-pointer inline-block"
               >
                 Download Resume
-              </Link>
+              </a>
             </motion.div>
           </motion.div>
 
@@ -138,7 +135,7 @@ function Hero() {
                 Scroll Down
               </span>
               <div className="cyber-box p-2 rounded-full">
-                <ArrowDown
+                <LuArrowDown
                   size={20}
                   className="group-hover:translate-y-1 transition-transform duration-300"
                 />

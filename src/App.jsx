@@ -1,14 +1,14 @@
-import "./App.css";
-
-import { Route, Routes } from "react-router-dom";
-
+import About from "./Components/About";
 import Hero from "./Components/Hero";
+import Skills from "./Components/Skills";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Hero />} />
-    </Routes>
+    <div className="h-screen no-scrollbar">
+      <Hero />
+      <About />
+      <Skills/>
+    </div>
   );
 }
 
