@@ -1,0 +1,85 @@
+export const Projects = [
+  {
+    title: "Learning Management System 2.0",
+    description:
+      "A comprehensive learning management system built with the MERN stack. Features include course creation, user authentication, progress tracking, and interactive quizzes.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "JWT Authentication",
+      "Razorpay",
+    ],
+    image:
+      "https://res.cloudinary.com/dx0h4xmyc/image/upload/v1751552919/Projects%20screenshots/LMS/Screenshot_2025-07-03_194028_igcbal.png",
+    github: "https://github.com/gkartikey05/Learning-Management-System-2.0",
+    live: "https://learning-management-system-2-0.vercel.app/",
+  },
+  {
+    title: "Expense Tracker",
+    description:
+      "An expense tracker application that helps users manage their finances by tracking income and expenses, generating reports, and providing insights into spending habits.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT Authentication",
+      "Gemini",
+    ],
+    image:
+      "https://res.cloudinary.com/dx0h4xmyc/image/upload/v1752159457/Projects%20screenshots/Expense%20Tracker/be89ff84-a52b-4506-90bd-5c4900dd6c06.png",
+    github: "https://github.com/gkartikey05/Expense-Tracker",
+    live: "https://expense-tracker-sigma-puce-39.vercel.app/",
+  },
+  {
+    title: "Blog Platform",
+    description:
+      "A platform for users to create, share, and discover blog posts on various topics.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT Authentication",
+      "Cloudinary",
+    ],
+    image:
+      "https://res.cloudinary.com/dx0h4xmyc/image/upload/v1752159801/Projects%20screenshots/Blog%20Platform/819e9da5-3df5-4ea4-a0d8-2ae23dd8d992.png",
+    github:
+      "https://github.com/gkartikey05/CODSOFT-React-Js/tree/main/Blog%20Platform",
+    live: "https://codsoft-react-js.vercel.app/",
+  },
+  {
+    title: "Github User Finder",
+    description:
+      "Github User Finder is a web application that allows users to search for GitHub users and view their profiles.",
+    technologies: ["React", "Axios", "TailwindCSS", "GitHub API"],
+    image:
+      "https://res.cloudinary.com/dx0h4xmyc/image/upload/v1752160606/Projects%20screenshots/Github%20Avatar%20Finder/4d4833de-a79e-49ef-ac47-25c482f8cf8b.png",
+    github: "https://github.com/gkartikey05/Github-User-Finder",
+    live: "https://github-user-finder-wheat.vercel.app/",
+  },
+  {
+    title: "Techddersct Landing Page",
+    description:
+      "A landing page for Techddersct assignment, showcasing the features and functionalities of the project.",
+    technologies: ["React", "TailwindCSS", "Framer Motion"],
+    image:
+      "https://res.cloudinary.com/dx0h4xmyc/image/upload/v1752160059/Projects%20screenshots/Techsseract%20Assignment/c86b00f5-c4b2-4442-9ef5-d925aad50dec.png",
+    github: "https://github.com/gkartikey05/Techddersct_Assignment",
+    live: "https://techddersct-assignment.vercel.app/",
+  },
+  {
+    title: "Pokedex App",
+    description:
+      "Pokedex App is a web application that allows users to search for and view information about various Pokémon.",
+    technologies: ["React", "Tailwind", "Axios", "PokeAPI"],
+    image:
+      "https://res.cloudinary.com/dx0h4xmyc/image/upload/v1752160856/Projects%20screenshots/Pokedex/e67fb40c-dda4-4a94-8dc2-062f56cf31b1.png",
+    github: "https://github.com/gkartikey05/Pokedex",
+    live: "https://pokedex-mocha-theta-87.vercel.app/",
+  },
+];
