@@ -73,13 +73,13 @@
 
 ---
 
-## 🧑‍💻 About
+<h2 id="about" align="left">🧑‍💻 About</h2>
 
 Portfolio-2.0 is a full-stack personal portfolio web application built to showcase your skills, projects, and provide a professional online presence. It features a modern, responsive design and a contact form with email integration.
 
 ---
 
-## ✨ Features
+<h2 id="features" align="left">✨ Features</h2>
 
 - Modern, responsive UI/UX
 - Dynamic skills and projects showcase
@@ -90,7 +90,7 @@ Portfolio-2.0 is a full-stack personal portfolio web application built to showca
 
 ---
 
-## 🛠️ Tech Stack
+<h2 id="tech-stack" align="left">🛠️ Tech Stack</h2>
 
 - **Frontend:** React, Vite, Tailwind CSS
 - **Backend:** Node.js, Express
@@ -99,7 +99,7 @@ Portfolio-2.0 is a full-stack personal portfolio web application built to showca
 
 ---
 
-## 📁 Project Structure
+<h2 id="project-structure" align="left">📁 Project Structure</h2>
 
 ```
 Portfolio-2.0/
@@ -115,7 +115,7 @@ Portfolio-2.0/
 
 ---
 
-## ⚡ Setup & Installation
+<h2 id="setup--installation" align="left">⚡ Setup & Installation</h2>
 
 ### Prerequisites
 
@@ -151,7 +151,7 @@ Portfolio-2.0/
 
 ---
 
-## 🖥️ Usage
+<h2 id="usage" align="left">🖥️ Usage</h2>
 
 - Visit the frontend at `http://localhost:5173`
 - Backend runs on `http://localhost:5000`
@@ -159,7 +159,7 @@ Portfolio-2.0/
 
 ---
 
-## 🛠️ Customization
+<h2 id="customization" align="left">🛠️ Customization</h2>
 
 - Update your skills and projects in `CLIENT/src/Constants/Skills/Skills.jsx` and `CLIENT/src/Constants/Projects/Projects.js`
 - Change profile image and resume in `CLIENT/public/`
@@ -167,7 +167,7 @@ Portfolio-2.0/
 
 ---
 
-## 🏆 Projects Showcase
+<h2 id="projects-showcase" align="left">🏆 Projects Showcase</h2>
 
 ### Learning Management System 2.0
 
@@ -213,7 +213,7 @@ Pokedex App is a web application that allows users to search for and view inform
 
 ---
 
-## 📬 Contact
+<h2 id="contact" align="left">📬 Contact</h2>
 
 Have a project in mind or want to discuss opportunities? Feel free to reach out!
 
