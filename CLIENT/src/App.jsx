@@ -14,7 +14,7 @@ import axiosInstance from "./Helpers/axiosInstance";
 function App() {
   useEffect(() => {
     const pingServer = () => {
-      axiosInstance.get("/api/ping").catch(() => {});
+      axiosInstance.get("/ping").catch(() => {});
     };
     pingServer(); // Initial ping
     const interval = setInterval(pingServer, 300000); // 5 minutes
