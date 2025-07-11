@@ -91,10 +91,10 @@ function Project() {
                   <LuCode size={20} className="text-primary" />
                 </div>
 
-                <h3 className="text-xl font-semibold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-white via-white/90 to-primary/80 ">
+                <h3 className="text-xl font-semibold mb-2 bg-clip-text text-transparent text-center bg-gradient-to-r from-white via-white/90 to-primary/80 ">
                   {project.title}
                 </h3>
-                <p className="text-white/70 text-sm mb-4">
+                <p className="text-white/70 text-sm mb-4 text-justify">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">

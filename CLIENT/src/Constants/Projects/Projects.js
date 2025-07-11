@@ -63,7 +63,7 @@ export const Projects = [
     live: "https://github-user-finder-wheat.vercel.app/",
   },
   {
-    title: "Techddersct Landing Page",
+    title: "Techssersct Landing Page",
     description:
       "A landing page for Techddersct assignment, showcasing the features and functionalities of the project.",
     technologies: ["React", "TailwindCSS", "Framer Motion"],
