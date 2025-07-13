@@ -130,10 +130,9 @@ function MainLayout({ children }) {
                   </a>
                 ))}
                 <a
-                  href="https://drive.google.com/file/d/1ieXVy42HLM8gJtyZH6x728PktDQodkez/view?usp=sharing"
+                  href="resume.pdf"
                   target="_blank"
                   className="block text-base font-medium text-primary hover:text-primary/80 transition-colors duration-300"
-                  download
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Resume
