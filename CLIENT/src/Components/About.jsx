@@ -24,7 +24,7 @@ function About() {
                 <div
                   className="w-full h-full bg-cover bg-center"
                   style={{
-                    backgroundImage: "url('/profile.jpeg')",
+                    backgroundImage: "url('/profile.jpg')",
                   }}
                 ></div>
               </div>

@@ -9,7 +9,7 @@ function Project() {
 
   const handleActiveProject = () => {
     if (activeProject === 3) {
-      setActiveProject(6);
+      setActiveProject(9);
     } else {
       setActiveProject(3);
     }
